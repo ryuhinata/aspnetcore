@@ -1,1 +1,9 @@
 .vs
+/packages
+/Artifacts
+*/bin
+*/obj
+*.user
+*.nupkg
+Build Scripts/
+Zips/
