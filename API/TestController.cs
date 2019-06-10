@@ -1,4 +1,8 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using aspnetcore.API.Models;
+using aspnetcore.Models;
+using aspnetcore.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace aspnetcore.API
@@ -7,10 +11,23 @@ namespace aspnetcore.API
     [ApiController]
     public class TestController : ControllerBase
     {
+        private readonly MySqlDapper _dapper;
+
+        public TestController(MySqlDapper dapper)
+        {
+            _dapper = dapper;
+        }
         [HttpGet]
         public ActionResult Get()
         {
             return Ok("Connection is okay");
+        }
+
+        [HttpGet("DB")]
+        public ActionResult CheckDBConnection()
+        {
+            _dapper.Query<string>("select top 1 * from account").FirstOrDefault();
+            return Ok("Db Connection is okay");
         }
 
         [HttpPost("getbalance2/{id}")]
@@ -40,21 +57,5 @@ namespace aspnetcore.API
             };
             return Ok(userRankings);
         }
-    }
-    public class UserRanking
-    {
-        public string Username { get; set; }
-        public int Ranking { get; set; }
-    }
-
-    public class PlayerBalance
-    {
-        public int StarBalance { get; set; }
-        public int DiamondBalance { get; set; }
-    }
-
-    public class GetBalanceRequest
-    {
-        public int Id { get; set; }
     }
 }
