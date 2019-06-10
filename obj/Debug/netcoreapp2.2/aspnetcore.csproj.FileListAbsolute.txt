@@ -2,6 +2,10 @@ d:\WorkspaceGit\aspnetcore\bin\Debug\netcoreapp2.2\aspnetcore.deps.json
 d:\WorkspaceGit\aspnetcore\bin\Debug\netcoreapp2.2\aspnetcore.runtimeconfig.json
 d:\WorkspaceGit\aspnetcore\bin\Debug\netcoreapp2.2\aspnetcore.runtimeconfig.dev.json
 d:\WorkspaceGit\aspnetcore\bin\Debug\netcoreapp2.2\aspnetcore.dll
+d:\WorkspaceGit\aspnetcore\bin\Debug\netcoreapp2.2\aspnetcore.pdb
+d:\WorkspaceGit\aspnetcore\bin\Debug\netcoreapp2.2\aspnetcore.Views.dll
+d:\WorkspaceGit\aspnetcore\bin\Debug\netcoreapp2.2\aspnetcore.Views.pdb
+d:\WorkspaceGit\aspnetcore\obj\Debug\netcoreapp2.2\aspnetcore.csprojAssemblyReference.cache
 d:\WorkspaceGit\aspnetcore\obj\Debug\netcoreapp2.2\aspnetcore.csproj.CoreCompileInputs.cache
 d:\WorkspaceGit\aspnetcore\obj\Debug\netcoreapp2.2\aspnetcore.RazorAssemblyInfo.cache
 d:\WorkspaceGit\aspnetcore\obj\Debug\netcoreapp2.2\aspnetcore.RazorAssemblyInfo.cs
@@ -20,11 +24,7 @@ d:\WorkspaceGit\aspnetcore\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cs
 d:\WorkspaceGit\aspnetcore\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
 d:\WorkspaceGit\aspnetcore\obj\Debug\netcoreapp2.2\aspnetcore.RazorTargetAssemblyInfo.cache
 d:\WorkspaceGit\aspnetcore\obj\Debug\netcoreapp2.2\aspnetcore.RazorTargetAssemblyInfo.cs
-d:\WorkspaceGit\aspnetcore\bin\Debug\netcoreapp2.2\aspnetcore.pdb
-d:\WorkspaceGit\aspnetcore\bin\Debug\netcoreapp2.2\aspnetcore.Views.dll
-d:\WorkspaceGit\aspnetcore\bin\Debug\netcoreapp2.2\aspnetcore.Views.pdb
 d:\WorkspaceGit\aspnetcore\obj\Debug\netcoreapp2.2\aspnetcore.Views.pdb
 d:\WorkspaceGit\aspnetcore\obj\Debug\netcoreapp2.2\aspnetcore.dll
 d:\WorkspaceGit\aspnetcore\obj\Debug\netcoreapp2.2\aspnetcore.pdb
 d:\WorkspaceGit\aspnetcore\obj\Debug\netcoreapp2.2\aspnetcore.csproj.CopyComplete
-d:\WorkspaceGit\aspnetcore\obj\Debug\netcoreapp2.2\aspnetcore.csprojAssemblyReference.cache
